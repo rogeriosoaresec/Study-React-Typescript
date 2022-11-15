@@ -1,0 +1,42 @@
+.itemTodo {
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+
+    padding: 5px 0 10px;
+}
+
+.itemTodo:hover {
+    background-color: aqua;
+}
+
+.itemCol1, .itemCol3 {
+    padding: 10px;
+}
+
+.itemCol1 input {
+    cursor: pointer;
+}
+
+.itemCol2 {
+    flex: 1;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+.itemCol2 span {
+    width: 30%;
+
+    display: inline-flex;
+    flex-direction: row-reverse;
+}
+
+.edititem {
+    cursor: pointer;
+}
